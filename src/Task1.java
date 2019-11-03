@@ -1,23 +1,32 @@
+import java.util.Arrays;
+
 public class Task1 {
     public static void main(String[] args) {
-        double[] array = new double[100];
+        int a = 3; // от
+        int b = 15; // до
+        int[] array = new int[5];
         for (int i = 0; i < array.length; i++) {
-            array[i] = Math.random();
+            array[i] = a + (int) (Math.random() * b);
         }
-
-        double max = array[0];
-        double min = array[0];
-        double avg = 0;
+        System.out.println(Arrays.toString(array));
+        int max = array[0];
+        int min = array[0];
+        int avg = 0;
         for (int i = 0; i < array.length; i++) {
-            if(max < array[i])
+            if (max < array[i]) {
                 max = array[i];
-            if(min > array[i])
+            }
+            if (min > array[i]) {
                 min = array[i];
-            avg += array[i]/array.length;
+            }
+            avg += array[i];
         }
-
         System.out.println("max = " + max);
         System.out.println("min = " + min);
-        System.out.println("avg = " + avg);
+        System.out.println("avg = " + avg / array.length);
     }
 }
+
+
+
+
