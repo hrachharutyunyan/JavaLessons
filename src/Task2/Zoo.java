@@ -1,6 +1,10 @@
 package Task2;
 //Зоопарк
 class Zoo {
+    public static void main(String[] args) {
+
+    }
+
     private static String name;
     private int size;
     private int visitor;
