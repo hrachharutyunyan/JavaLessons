@@ -10,7 +10,7 @@ public class Task2 {
                 count++;
             }
         }
-        System.out.println("знак меняется " + count + " раз");
+        System.out.println("количество изменения знака: " + count);
     }
 }
 

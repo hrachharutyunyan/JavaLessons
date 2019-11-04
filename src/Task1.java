@@ -2,11 +2,9 @@ import java.util.Arrays;
 
 public class Task1 {
     public static void main(String[] args) {
-        int a = 3; // от
-        int b = 15; // до
         int[] array = new int[5];
         for (int i = 0; i < array.length; i++) {
-            array[i] = a + (int) (Math.random() * b);
+            array[i] = 3 + (int) (Math.random() * 15);
         }
         System.out.println(Arrays.toString(array));
         int max = array[0];
