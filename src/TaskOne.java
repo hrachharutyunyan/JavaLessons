@@ -11,13 +11,7 @@ public class TaskOne {
         System.out.println(taskOne.getSum(list));
     }
 
-    /**
-     * Calculates the sum of the squares of all elements in the collection.
-     *
-     * @param list
-     * @return
-     */
-    int getSum(List<Integer> list) {
+    private int getSum(List<Integer> list) {
         int sum = 0;
         for (int i : list) {
             sum += Math.pow(i, 2);
