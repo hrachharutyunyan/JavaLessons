@@ -1,4 +1,4 @@
-public class Task2 {
+public class TaskTwo {
     public static void main(String[] args) {
         int num = -2;
         System.out.println("Number is negative=" + plusMinus(num));

@@ -1,4 +1,4 @@
-public class Task3 {
+public class TaskThree {
     public static void main(String[] args) {
         String name = "Hrach";
         System.out.println(lineLength(name));
