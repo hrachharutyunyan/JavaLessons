@@ -17,12 +17,18 @@ class Staff {
         return "имя: " + name + ", фамилия: " + surname + ", должность: " + position + ", стаж: " + experience + " лет.";
     }
 
-    static void hello3() {
-        System.out.println("Բարև, Привет, Hello!");
+    void helloEnglish() {
+        System.out.println("Hello");
+    }
+    void helloRussian() {
+        System.out.println("Привет");
+    }
+    void helloArmenian() {
+        System.out.println("Բարև");
     }
 
-   static String care(Animal animal) {
-        return " ухаживает за" +animal;
+    String care(Animal animal) {
+        return " ухаживает за" + animal;
     }
 }
 

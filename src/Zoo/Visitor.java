@@ -17,15 +17,15 @@ class Visitor {
         return "имя: " + name + ", фамилия: " + surname + ", национальность: " + nation + ", дети: " + children + ".";
     }
 
-    static String voice(String speech) {
+     String voice(String speech) {
         return " говорит " + speech;
     }
 
-    static String pay(int money) {
+     String pay(int money) {
         return " платит " + money + " драм ";
     }
 
-    static String walk(String place) {
+     String walk(String place) {
         return " идет в " + place;
     }
 

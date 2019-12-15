@@ -17,15 +17,15 @@ class Animal {
         return "имя: " + name + ", порода: " + breed + ", возраст: " + age + "лет" + ", вес: " + weight + "кг" + ".";
     }
 
-   static String run(String direction) {
+    String run(String direction) {
         return " бегает " + direction;
     }
 
-    static String voice(String voice) {
+     String voice(String voice) {
         return " " + voice;
     }
 
-    static String eat(String food) {
+     String eat(String food) {
         return " ест " + food;
     }
 }
