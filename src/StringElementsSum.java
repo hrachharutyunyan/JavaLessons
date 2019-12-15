@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task2 {
+public class StringElementsSum {
     public static void main(String[] args) {
         System.out.println("введите текст:");
         Scanner scanner = new Scanner(System.in);
