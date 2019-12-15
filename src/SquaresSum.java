@@ -1,14 +1,14 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class TaskOne {
+public class SquaresSum {
     public static void main(String[] args) {
-        TaskOne taskOne = new TaskOne();
+        SquaresSum squaresSum = new SquaresSum();
         List<Integer> list = new ArrayList<>(3);
         list.add(1);
         list.add(2);
         list.add(3);
-        System.out.println(taskOne.getSum(list));
+        System.out.println(squaresSum.getSum(list));
     }
 
     private int getSum(List<Integer> list) {

@@ -3,7 +3,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class TaskTwoFour {
+public class ArrayTwoSameElements {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>(4);
         list.add(1);
