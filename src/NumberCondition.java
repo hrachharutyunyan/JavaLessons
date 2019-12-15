@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Task2 {
+public class NumberCondition {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
@@ -11,7 +11,7 @@ public class Task2 {
         } else if (x == 0) {
             y = 0;
             System.out.println(y);
-        } else if (x < 0) {
+        } else {
             y = Math.abs(x) - 1;
             System.out.println(y);
         }
