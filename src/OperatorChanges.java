@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Task2 {
+public class OperatorChanges {
     public static void main(String[] args) {
         int[] array = {10, -4, 12, 56, -4};
         int count = 0;

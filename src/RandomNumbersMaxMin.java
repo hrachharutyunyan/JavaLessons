@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Task1 {
+public class RandomNumbersMaxMin {
     public static void main(String[] args) {
         int[] array = new int[5];
         for (int i = 0; i < array.length; i++) {
@@ -10,14 +10,14 @@ public class Task1 {
         int max = array[0];
         int min = array[0];
         int avg = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (max < array[i]) {
-                max = array[i];
+        for (int value : array) {
+            if (max < value) {
+                max = value;
             }
-            if (min > array[i]) {
-                min = array[i];
+            if (min > value) {
+                min = value;
             }
-            avg += array[i];
+            avg += value;
         }
         System.out.println("max = " + max);
         System.out.println("min = " + min);
